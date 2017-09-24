@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="MyApp">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="jsCode.js"></script>
+  <style type="text/css">
+  
+  div {
+    line-height: 150%;
+  }
+  
+  ul{
+    list-style-type:none;
+    padding-left:15px;
+    line-height: 1em;
+    margin: 0;
+  }
+  li {
+   line-height: 100%;
+  }
+
+.color {
+    background-color: #87CEEB;
+}
+
+  </style>
+  <body >
+    <h1> Contact Tree </h1>
+    <div  ng-controller="myController as ctrl">
+      <contact-dir ng-repeat="contact in ctrl.contacts track by contact.id" contact="contact"></contact-dir>
+    </div>
+  </body>
+</html>

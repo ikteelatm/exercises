@@ -1,0 +1,19 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "description": "including a basic exercise",
+  "main": "jsCode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikteelatm/exercises.git"
+  },
+  "author": "Mohammad Iktelat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikteelatm/exercises/issues"
+  },
+  "homepage": "https://github.com/ikteelatm/exercises#readme"
+}
